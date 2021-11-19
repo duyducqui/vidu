@@ -6,6 +6,11 @@ int tong(int a, int b)
 	return a + b;
 }
 int hieu(int a, int b);
+int tich(int a, int b);
+int tich(int a, int b)
+{
+	return a*b;
+}
 int main()
 {
 	int a, b;
@@ -17,6 +22,7 @@ int main()
 	cout << "Chon phep toan (+,-) ";
 
 	cin >> phepToan;
+	cout<<"ket qua nhan"<<tich<<endl;
 	system("pause");
 	return 0;
 }
